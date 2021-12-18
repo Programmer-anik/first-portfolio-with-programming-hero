@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 500px;
+}
+.banner-area{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+img{
+    width: 100%;
+}
+.banner-area .half-width .bold{
+    font-size: 50px;
+    font-weight: 600;
+}
+.name-highlight{
+    color: orange
+}
+.banner-area .half-width .color{
+    font-size: 50px;
+    font-weight: 600;
+}
+.half-width p{
+    font-weight: 300;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(lightsalmon, tomato);
+    color: #fff;
+}
+
+/*Dream Job area*/
+.dream-area{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 100px;
+}
+.dream-area .bold{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/* Experiences area */
+.experiences{
+    margin-top: 200px;
+    margin-bottom: 500px;
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences .heading{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+}
+.experiences .half-width{
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+.experiences .half-width h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+#first-exp{
+    border-left: 7px solid ;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#seccond-exp{
+    border-left: 7px solid ;
+    border-image: linear-gradient(lightblue, blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+}
